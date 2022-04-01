@@ -1,0 +1,20 @@
+package controlador;
+/**
+ * 
+ * @author Naomi Milagro Poclava CM3
+ *
+ */
+public class Cadenas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Tipos de dato No Primitivos
+		 */
+		
+		Integer numero = 10;
+		System.out.println("El numero es: "+ numero);
+
+	}
+
+}

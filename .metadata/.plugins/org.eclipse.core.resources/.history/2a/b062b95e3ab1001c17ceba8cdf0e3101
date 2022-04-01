@@ -1,0 +1,38 @@
+package controlador;
+
+import java.util.Scanner;
+
+public class EntradaSalidaDeDatoCarecteres {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner entrada = new Scanner(System.in);
+		char letra;
+		
+		System.out.println("Digite una letra: ");
+		letra = entrada.next().charAt(0); //charAt te lee una solo caractere () entre parentesis se pone la posicion.
+		
+		System.out.println("La letra es: "+ letra);
+		
+		entrada.close();
+
+	}
+	
+	public static void mai(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner entrada = new Scanner(System.in);
+		char letra;
+		
+		System.out.println("Digite una letra: ");
+		letra = entrada.next().charAt(0); //charAt te lee una solo caractere () entre parentesis se pone la posicion.
+		
+		System.out.println("La cadena es: "+ letra);
+		
+		entrada.close();
+
+	}
+
+
+}

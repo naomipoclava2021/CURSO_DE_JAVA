@@ -1,0 +1,23 @@
+package controlador;
+
+import java.util.Scanner;
+
+public class EntradaSalidaDeDatoCarecteres {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner ingreso = new Scanner(System.in);
+		String cadena;
+		System.out.println("Ingresa una cadena de texto: ");
+		
+		cadena = ingreso.toString();
+		System.out.println("La palabra ingresada es: "+ cadena);
+		
+		ingreso.close();
+		
+		
+
+	}
+
+}

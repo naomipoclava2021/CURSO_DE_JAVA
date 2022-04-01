@@ -1,0 +1,13 @@
+package bloque2;
+
+public class Math {
+
+	public static void main(String[] args) {
+		
+		int raiz = (int) Math.sqrt(81);
+		
+		System.out.println(raiz);
+
+	}
+
+}

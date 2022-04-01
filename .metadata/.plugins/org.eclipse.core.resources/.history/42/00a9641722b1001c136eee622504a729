@@ -1,0 +1,28 @@
+package controlador;
+
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Naomi Milagro Poclava
+ *
+ */
+public class EntradaSalidaDeDatos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner entrada = new Scanner(System.in);
+
+		int edad;
+		System.out.println("Dime tu edad ");
+
+		edad = entrada.nextInt();
+
+		System.out.println("La edad es: " + edad);
+
+		entrada.close();
+
+	}
+
+}

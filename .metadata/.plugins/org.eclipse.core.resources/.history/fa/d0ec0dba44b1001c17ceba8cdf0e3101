@@ -1,0 +1,11 @@
+package bloque2;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ingresar = new Scanner(System.in);
+		
+	}
+
+}

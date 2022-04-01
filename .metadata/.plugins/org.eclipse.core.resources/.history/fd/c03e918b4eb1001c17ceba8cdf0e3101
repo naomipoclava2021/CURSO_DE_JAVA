@@ -1,0 +1,16 @@
+package bloque2;
+
+
+public class MetodoMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double numero = (int)(Math.sqrt(81));
+		
+		System.out.println(numero);
+		
+
+	}
+
+}

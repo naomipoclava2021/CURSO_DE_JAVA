@@ -1,0 +1,25 @@
+package controlador;
+/**
+ * 
+ * @author Naomi Milagro Poclava CM3
+ *
+ */
+
+public class Constantes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final int numero = 23;	//final es para indicar que es una constante
+		numero = 232;
+		numero = 2321;
+		numero = 2132;
+		System.out.println(numero);
+		
+		numero = 24288;
+		numero = 294729;
+		System.out.println(numero);
+
+	}
+
+}

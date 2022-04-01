@@ -1,0 +1,28 @@
+package bloque2;
+
+import java.util.Scanner;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ingresar = new Scanner(System.in);
+		
+		float num1,num2;
+		
+		System.out.println("Ingresar el primer numero: ");
+		num1 = ingresar.nextFloat();
+		
+		System.out.println("Ingresar el segungo numero: ");
+		num2 = ingresar.nextFloat();
+		
+		
+		
+		float suma = num1 + num2;
+		System.out.println("El resultado de la suma es "+ suma);
+		
+		ingresar.close();
+		
+	}
+
+}

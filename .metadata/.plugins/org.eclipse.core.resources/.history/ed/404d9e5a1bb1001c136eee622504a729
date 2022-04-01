@@ -1,0 +1,30 @@
+package controlador;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//TIPOS DE DATOS ENTEROS
+
+		byte edad;
+		edad = 21;
+		System.out.println("Mi edad es: " + edad);
+
+		short entera;
+		entera = 12232;
+		System.out.println("El short es: " + entera);
+
+		int entero;
+		entero = 943453231;
+		System.out.println("El int es: " + entero);
+
+		long longitudMasGrande;
+		longitudMasGrande = 232232802;
+		System.out.println("EL long es: " + longitudMasGrande);
+		
+		
+
+	}
+
+}

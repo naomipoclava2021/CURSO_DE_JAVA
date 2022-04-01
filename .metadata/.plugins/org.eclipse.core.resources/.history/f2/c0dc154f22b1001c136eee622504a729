@@ -1,0 +1,37 @@
+package controlador;
+
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Naomi Milagro Poclava
+ *
+ */
+public class EntradaSalidaDeDatos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner entrada = new Scanner(System.in);
+
+		int edad;
+		System.out.println("Dime tu edad ");
+
+		edad = entrada.nextInt();
+
+		System.out.println("La edad es: " + edad);
+
+		entrada.close();
+
+		Scanner ingreso = new Scanner(System.in);
+		float galleta;
+		System.out.println("Ingrese el precio de la galleta");
+
+		galleta = ingreso.nextFloat();
+		System.out.println("El precio de la galleta es: " + galleta);
+
+		ingreso.close();
+
+	}
+
+}

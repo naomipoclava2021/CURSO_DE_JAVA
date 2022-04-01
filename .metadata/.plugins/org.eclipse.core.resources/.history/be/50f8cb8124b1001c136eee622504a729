@@ -1,0 +1,44 @@
+package controlador;
+
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Naomi Milagro Poclava
+ *
+ */
+public class EntradaSalidaDeDatos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+
+	}
+
+	public static void mai(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner lectura = new Scanner(System.in);
+		double precioDeFactura;
+		System.out.println("Ingrese el precio de la factura: ");
+		precioDeFactura = lectura.nextDouble();
+		System.out.println("El precio de la factura es: " + precioDeFactura);
+
+		lectura.close();
+	}
+
+	public static void ma(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner ingreso = new Scanner(System.in);
+		float galleta;
+		System.out.println("Ingrese el precio de la galleta: "); // IMPORTANTE INGRESAR CON ',' UNA COMA NO UN PUNTO.
+
+		galleta = ingreso.nextFloat();
+		System.out.println("El precio de la galleta es: " + galleta);
+		ingreso.close();
+
+	}
+
+}

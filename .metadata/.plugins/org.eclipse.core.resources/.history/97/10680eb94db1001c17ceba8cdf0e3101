@@ -1,0 +1,12 @@
+package bloque2;
+
+public class Math {
+
+	public static void main(String[] args) {
+		
+		int numero = (int)(Math.random);
+		
+
+	}
+
+}
