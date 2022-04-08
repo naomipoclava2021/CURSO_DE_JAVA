@@ -2,8 +2,7 @@ package bloque3;
 
 import java.util.Scanner;
 
-
-public class Practica {
+public class CajeroAutomatico {
 
 	public static void main(String[] args) {
 		/*
@@ -31,6 +30,7 @@ public class Practica {
 		} else if (opcion == 2) {
 			System.out.println("Ingresa el monto a retirar: ");
 			retirar = entrada.nextFloat();
+			
 			if (retirar > saldoInicial) {
 				System.out.println("No tinenes saldo suficiente");
 			} else {
@@ -39,6 +39,7 @@ public class Practica {
 			}
 		} else if (opcion == 3) {
 			System.out.println("Salir");
+			
 		} else {
 			System.out.println("ERROR DE OPERACION");
 		}
