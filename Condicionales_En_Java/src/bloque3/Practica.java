@@ -2,47 +2,50 @@ package bloque3;
 
 import java.util.Scanner;
 
-
 public class Practica {
 
 	public static void main(String[] args) {
-		/*
-		 * Ejercicio 13: Hacer un programa que simule un cajero automatico con un saldo
-		 * incial de 1000 Dolares, con el siguiente menu de opciones: 1. Ingresar dinero
-		 * a la cuenta, 2. Retirar dinero de la cunta 3. Salir
-		 */
-
+		// TODO Auto-generated method stub
+		
 		Scanner entrada = new Scanner(System.in);
-		final int saldoInicial = 10000;
+		
+		float kg;
 		int opcion;
-		float ingresar, saldoActual, retirar;
-
-		System.out.println("Bienvenido al cajero automatico \n" + "Selecciona la operacion que deseas realizar: \n"
-				+ "1) Ingresar dinero a  la cuenta \n" + "2) Retirar dinero de la cuenta \n" + "3) Salir");
-
+		
+		System.out.println("Introduce la cantidad de kilogramos: ");
+		
+		kg = entrada.nextFloat();
+		System.out.println("Bienvenido al menu de opciones: \n"
+				+ "1. Hectogramo \n"
+				+ "2. Decagramo \n"
+				+ "3. Gramo \n"
+				+ "4. Decigramo \n"
+				+ "5. Centigramo \n"
+				+ "6. Miligramo");
 		opcion = entrada.nextInt();
-
+		
 		if (opcion == 1) {
-			System.out.println("¿Cuanto dinero vas a ingresar?: ");
-			ingresar = entrada.nextFloat();
-			saldoActual = saldoInicial + ingresar;
-			System.out.println("El nuevo saldo es : " + saldoActual);
-
+			kg*=10;
+			System.out.println("Ah Hectogramo "+ kg);
 		} else if (opcion == 2) {
-			System.out.println("Ingresa el monto a retirar: ");
-			retirar = entrada.nextFloat();
-			if (retirar > saldoInicial) {
-				System.out.println("No tinenes saldo suficiente");
-			} else {
-				saldoActual = saldoInicial - retirar;
-				System.out.println("El nuevo saldo es : " + saldoActual + " despues del retiro");
-			}
-		} else if (opcion == 3) {
-			System.out.println("Salir");
+			kg*=100;
+			System.out.println("Ah Decagramo "+ kg);
+		} else if (opcion ==3) {
+			kg*=1000;
+			System.out.println("Ah Gramo "+ kg);
+		} else if (opcion == 4) {
+			kg*=10000;
+			System.out.println("Ah Decigramo "+ kg);
+		} else if (opcion == 5) {
+			kg*=100000;
+			System.out.println("Ah Centigramo "+ kg);
+		} else if (opcion == 6) {
+			kg*=1000000;
+			System.out.println("Ah miligramos "+ kg);
 		} else {
-			System.out.println("ERROR DE OPERACION");
+			System.out.println("Error de opciones ");
 		}
-
+		
 		entrada.close();
 
 	}
