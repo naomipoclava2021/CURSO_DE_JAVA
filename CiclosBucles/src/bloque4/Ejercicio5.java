@@ -7,10 +7,10 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
+		 *Ejercicio5 
 		 * Realizar un juego para adivinar un numero. Para ello generar un numero
 		 * aleatorio entre 0 - 100, y luego ir pidiendo numeros indicando "es mayor o
 		 * menor respecto a N. El proceso termina cuando el usuario acierta y mostrar el
-		 * 
 		 * numero de intentos.
 		 * 
 		 * /* Ciclo While

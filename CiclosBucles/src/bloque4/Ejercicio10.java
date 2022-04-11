@@ -6,6 +6,10 @@ public class Ejercicio10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/*
+		 * Ejercicio10 Pedir 10 numeros y escribir la  suma total.
+		 */
 
 		Scanner entrada = new Scanner(System.in);
 

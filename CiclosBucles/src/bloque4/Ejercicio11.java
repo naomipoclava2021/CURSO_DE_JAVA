@@ -5,7 +5,7 @@ public class Ejercicio11 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * Diseñar un programa que muestre los 10 primeros numeros impares.
+		 * Ejercicio11 Diseñar un programa que muestre los 10 primeros numeros impares.
 		 */
 		long producto=1;
 		
