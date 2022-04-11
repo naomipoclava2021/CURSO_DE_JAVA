@@ -6,7 +6,7 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Hacer un program que calcule el cuadrado de una suma.
+		//Ejercicio6 Hacer un programa que calcule el cuadrado de una suma.
 		//(a+b)^2 = a^2+b^2 + 2ab
 		
 		Scanner ingreso = new Scanner(System.in);

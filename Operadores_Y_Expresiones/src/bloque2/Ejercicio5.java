@@ -6,8 +6,8 @@ public class Ejercicio5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// La calificacion final de un estudiante de informatica se calcula con base a
-		// las calificaciones de cuatros aspectos de
+		// Ejercicio5 La calificacion final de un estudiante de informatica se calcula
+		// con base a las calificaciones de cuatros aspectos de
 		// su rendimiento academico: participacion, primer examen parcial , segundo
 		// examen parcial y examen final. Sabiendo que
 		// las calificaciones anteriores entran a la calificacion final con poderaciones
@@ -28,9 +28,8 @@ public class Ejercicio5 {
 
 		System.out.println("Nota del examen final: ");
 		examenFinal = entrada.nextDouble();
-		
-		
-		//sumamos las notas
+
+		// sumamos las notas
 		notaFinal = (participacion * 0.10) + (primerParcial * 0.25) + (segundoParcial * 0.25) + (examenFinal * 0.40);
 		System.out.println("Tu nota final es: " + notaFinal);
 
