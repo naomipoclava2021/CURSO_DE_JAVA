@@ -6,7 +6,7 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Pedir dos numeros y decir cual es el mayor o si son igules.
+		// Ejercicio2 Pedir dos numeros y decir cual es el mayor o si son igules.
 
 		int num1, num2;
 

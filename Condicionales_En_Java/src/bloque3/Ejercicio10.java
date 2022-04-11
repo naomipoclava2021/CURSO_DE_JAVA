@@ -7,8 +7,8 @@ public class Ejercicio10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * Ejercicio10: Pedir el dia, mes y año de una fecha e indicar si la fecha es correcta. Con meses de 28, 30 y 31 dias.
-		 * Sin años bisiestos.
+		 * Ejercicio10: Pedir el dia, mes y año de una fecha e indicar si la fecha es
+		 * correcta. Con meses de 28, 30 y 31 dias. Sin años bisiestos.
 		 */
 		
 		int dia,mes, año;

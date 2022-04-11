@@ -7,11 +7,9 @@ public class Ejercicio13 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * Ejercicio 13: Hacer un programa que simule un cajero automatico con un saldo incial de 1000 Dolares, con el siguiente
-		 * menu de opciones:
-		 * 1. Ingresar dinero a la cuenta,
-		 * 2. Retirar dinero de la cunta
-		 * 3. Salir
+		 * Ejercicio 13: Hacer un programa que simule un cajero automatico con un saldo
+		 * incial de 1000 Dolares, con el siguiente menu de opciones: 1. Ingresar dinero
+		 * a la cuenta, 2. Retirar dinero de la cunta 3. Salir
 		 */
 		final int salarioInicial = 1000;
 		int opcion;

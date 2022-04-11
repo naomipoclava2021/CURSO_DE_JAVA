@@ -7,7 +7,7 @@ public class Ejercicio14 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * Hacer una programa que pase de Kg a otra unidad de medida dae masa, mostrar en pantalla un menu con las opciones posibles.
+		 * Ejericicio14 Hacer una programa que pase de Kg a otra unidad de medida dae masa, mostrar en pantalla un menu con las opciones posibles.
 		 */
 		int opciones;
 		double kilogramos, conversion;

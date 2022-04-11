@@ -7,12 +7,14 @@ public class Ejecicio11 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * Ejercicio11: Construir un programa que simule el funcionamieto de una calculadora que pueda ralizar cuatro
-		 * operaciones  aritmeticas basicas (suma, resta, producto y division) con valores numericos enteros, El usuariio debe
-		 * especificar la orperiacion con el primer caracter del primer parametro de la linea de comandos: 
-		 * S o s para la suma, R o r para la resta, P,p , M o m para el producto y D o d para la division.
+		 * Ejercicio11: Construir un programa que simule el funcionamieto de una
+		 * calculadora que pueda ralizar cuatro operaciones aritmeticas basicas (suma,
+		 * resta, producto y division) con valores numericos enteros, El usuariio debe
+		 * especificar la orperiacion con el primer caracter del primer parametro de la
+		 * linea de comandos: S o s para la suma, R o r para la resta, P,p , M o m para
+		 * el producto y D o d para la division.
 		 */
-		
+
 		int num1, num2;
 		char op; 
 		
