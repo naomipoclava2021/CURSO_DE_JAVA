@@ -26,24 +26,25 @@ public class Ejercicio15 {
 				
 				if (edad>18) {
 					conteoMayor18++;
-				}else {
-					System.out.println("No hay alumnos mayores a 18");
 				}
 				
 				if (altura>1.75) {
 					conteoMayor175++;
-				} else {
-					System.out.println("No hay alumnos con altura mayor a 1,75");
 				}
 		}
-		System.out.println("La suma de edad es: "+ suma_edad);
+		
+		mediaEdad = (float) suma_edad/5;
+		mediaAltura = (float) suma_atura/5;
+		
+		System.out.println("El promedio de la edad es : "+ mediaEdad);
 		System.out.println("La cantidad de alumnos mayor a 18 es: "+ conteoMayor18);
-		System.out.println("La suma de altura es: "+ suma_atura);
+	
+		System.out.println("El promedio de la altura es: "+ mediaAltura);
 		System.out.println("La cantidad de alumnos mayor a 1,75 es: "+ conteoMayor175);
 
 		
 		
-		
+		ingreso.close();
 		
 	}
 
