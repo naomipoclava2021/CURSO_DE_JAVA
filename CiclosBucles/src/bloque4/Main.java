@@ -81,6 +81,36 @@ public class Main {
 		 * altura media, la cantidad de alumnos mayores de 18 años, y la cantidad de
 		 * alumnos que miden mas de 1.75;
 		 */
+		
+		/*
+		 * Ejercicio 16: Pide un numero (que debe estar entre 0 y 10) y mostrar la tabla de multiplicar de dicho numero
+		 */
+		
+		/*
+		 * Ejercicio17 Una empresa que se dedica a la venta de desinfectantes necesita un programa para gestionar las facturas. 
+		 * En cada factura figura: el codigo del articulo,la cantidad vendida en litros y el precio por litro. Se pide de 5
+		 * facturas introducidas: Facturacion total, cantidad en litros vendidos del articulo 1 y cuantas facturas se emitieron de
+		 * mas de $600.
+		 */
+		
+		/*
+		 * Ejercicio18: Hacer unas modificaciones al ajercicio anterior suponiendo que
+		 * no se introduce el precio por litro. Solo existen tres productos con precios:
+		 * 1- 0,6 $/litro 
+		 * 2- 3 $/litro 
+		 * 3- 1,25 $/litro
+		 * 
+		 */
+		
+		/*
+		 * Ejercicio19: Dadas 6 notas, escribir la cantidad de alumnos aprobados, condicionados
+		 * (=4) y suspensos.
+		 * 
+		 */
+		
+		/*
+		 * Ejercicio20 Pedir un numero N, introducir N sueldos, y mostrar el suledo maximo
+		 */
 
 	}
 
