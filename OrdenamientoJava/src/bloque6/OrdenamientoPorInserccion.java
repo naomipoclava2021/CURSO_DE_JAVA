@@ -49,6 +49,7 @@ public class OrdenamientoPorInserccion {
 			System.out.print(arreglo[i]+ " - ");
 		}
 		System.out.println("");
+		entrada.close();
 	}
 
 }

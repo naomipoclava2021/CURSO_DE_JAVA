@@ -9,4 +9,17 @@ intercambios, lo cual signifiaca que lista esta ordenada.
 Es una manera muy natural de ordenar para ser humano, y puede usarse facilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere
 O(n^2) operaciones para odernar una lista de n elementos.
 
+# Ordenamiento por Seleccion
+## ¿Que es el ordenamineto por Seleccion?
+Es un algoritmo de ordenamiento que requiere O (n^2) operaciones para ordenar una lista de n numeros. Su fucionamiento es el siguiente:
+
+1. Buscar el minimo elemento de la lista.
+
+2. Intercambiar con el primer elemento.
+
+3. Buscar el minimo del resto de la lista.
+
+4. Intercambiar con el segundo.
+
+5. Y asi sucesivamente.
 
