@@ -60,6 +60,7 @@
 # [✅ Programación Orientada a Objetos en Java || Programación en Java (POO)](https://www.youtube.com/watch?v=ajyy8jnvZ-k&list=PL5YuOOJ-FGGjfXdQww1srq3vxL1DiydK2&index=2)
 
 ## Bloque 9: POO en Java
+##### [POO en Java](https://github.com/naomipoclava2021/CURSO_DE_JAVA/tree/main/POO%20en%20Java/src)
 1. Conceptos de POO
 2. Creacion de clases y objetos
 3. Conceptos y creacion de metodos
