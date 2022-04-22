@@ -1,6 +1,4 @@
-# CURSO_DE_JAVA
-
-[Aprende a programar](https://youtu.be/rSXSqlzwyp4)
+# [✅ Curso de JAVA desde CERO (Completo) - Nivel JUNIOR](https://www.youtube.com/watch?v=rSXSqlzwyp4&list=PL5YuOOJ-FGGjfXdQww1srq3vxL1DiydK2&index=1)
 
 ## Bloque 1: Introduccion a Java
 ##### [IntroducionJava](https://github.com/naomipoclava2021/CURSO_DE_JAVA/tree/main/IntroducionJava/src/controlador)
@@ -58,4 +56,25 @@
 ##### [Matrices](https://github.com/naomipoclava2021/CURSO_DE_JAVA/tree/main/Matrices/src/bloque8)
 1. Definicion de una matriz bidemencional (filas y columnas)
 2. Ejercicio de partica, cantidad = 7
+
+# [✅ Programación Orientada a Objetos en Java || Programación en Java (POO)](https://www.youtube.com/watch?v=ajyy8jnvZ-k&list=PL5YuOOJ-FGGjfXdQww1srq3vxL1DiydK2&index=2)
+
+## Bloque 9: POO en Java
+1. Conceptos de POO
+2. Creacion de clases y objetos
+3. Conceptos y creacion de metodos
+4. Metodos - perametros y argumentos
+5. Metodos - Retorno de valores
+6. Metodo constructor
+7. Sobrecarga de metodos
+8. Modificadores de acceso
+9. Encapsulamiento
+10. Constantes
+11. Miembros estaticos de una clase
+12. Herencia
+13. Clases y metodos final
+14. Sobre escritura de miembros
+15. Clases y meetodos abstractos
+16. Polimorfismo
+17. Ejercicio de pracica, cantidad = 10
 
