@@ -38,6 +38,7 @@ public class NumeroComplejos {
 	 * 
 	 * 
 	 * NumeroComplejo = new NumeroComplejo (3,49);
+	 * numero1.cacularSuma(numero2)
 	 */
 	
 	public NumeroComplejos calcularSuma(NumeroComplejos c) {
@@ -45,6 +46,46 @@ public class NumeroComplejos {
 		return suma;
 	}
 	
+	/*
+	 * numero1 = 3 +4i;
+	 * numero2 = 2 +5i;
+	 * 
+	 * mult = (3*2 - 4*5)+ (3*5 +4*2)i
+	 * 
+	 */
 	
+	public NumeroComplejos calcularProducto(NumeroComplejos c) {
+		NumeroComplejos mult = new NumeroComplejos((a*c.getA() -b*c.getB()), (a*c.getB()+ b*c.getA()));
+		return mult;
+	}
+	
+	
+	/*
+	 * numero1 = 3 +4i;
+	 * numero2 = 2 +5i;
+	 * 
+	 */
+	
+	public boolean comprobarIgualdad(NumeroComplejos c) {
+		boolean igualdad = false;
+		if ((a == c.getA()) && (b == c.getB())) {
+			igualdad = true;
+			
+		}
+		return igualdad;
+	}
+	
+	
+	/*
+	 * numeroComplejo = 3 + 4i
+	 * entero = 2
+	 * 
+	 * mult = 6 + 8i
+	 */
+	
+	public NumeroComplejos multiplicarPorEntero(int x) {
+		NumeroComplejos mult = new NumeroComplejos(a * x, b* x);
+		return mult;
+	}
 
 }
