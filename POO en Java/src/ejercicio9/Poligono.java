@@ -27,7 +27,7 @@ public abstract class Poligono {
 	
 	@Override
 	public String toString() {
-		return "numero lados= " + numerolados + "]";
+		return "numero lados= " + numerolados + ": ";
 	}
 	
 	//Declaramos el metodo area como abstracto
