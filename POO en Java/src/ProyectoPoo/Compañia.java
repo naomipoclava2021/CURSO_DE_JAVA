@@ -1,10 +1,9 @@
 package ProyectoPoo;
 
-import java.util.ArrayList;
 
 public class Compañia {
 	private String nombre;
-	private ArrayList<Vuelo> listaVuelos = new ArrayList<Vuelo>();
+	private Vuelo listaVuelos []= new Vuelo[10];
 	private int numVuelos =0;
 	
 	
@@ -14,11 +13,19 @@ public class Compañia {
 	}
 
 
-	public Compañia(String nombre, ArrayList<Vuelo> listaVuelos, int numVuelos) {
+
+	public Compañia(String nombre, Vuelo[] listaVuelos) {
 		this.nombre = nombre;
 		this.listaVuelos = listaVuelos;
-		this.numVuelos = numVuelos;
+		this.numVuelos = listaVuelos.length;
 	}
+	
+	
+	public void insertarVuelo(Vuelo vuelo) {
+		listaVuelos[numVuelos]= vuelo;
+		numVuelos++;
+	}
+
 
 
 	public String getNombre() {
@@ -26,19 +33,11 @@ public class Compañia {
 	}
 
 
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-	public ArrayList<Vuelo> getListaVuelos() {
-		return listaVuelos;
-	}
-
-
-	public void setListaVuelos(ArrayList<Vuelo> listaVuelos) {
-		this.listaVuelos = listaVuelos;
-	}
 
 
 	public int getNumVuelos() {
@@ -46,13 +45,39 @@ public class Compañia {
 	}
 
 
+
 	public void setNumVuelos(int numVuelos) {
 		this.numVuelos = numVuelos;
 	}
 	
+	public Vuelo getVuelo(int i) {
+		return listaVuelos[i];
+	}
+	
+	public Vuelo getVuelo(String id) {
+		boolean encontrado = false;
+		int i =0;
+		Vuelo v = null;
+		
+		while((!encontrado) && (i<listaVuelos.length)) {
+			if(id.equals(listaVuelos[i].getIdentificador())) {
+				encontrado = true;
+				v = listaVuelos[i];
+			}
+			i++;
+		}
+		return v;
+	}
+	
+	
+
+
+
 	
 	
 	
+
+
 	
 
 }

@@ -2,28 +2,52 @@ package ProyectoPoo;
 
 public class Privado extends Aeropuerto{
 	
-	private String empresa;
+	private String listaEmpresas[] = new String [10];
 	private int numEmpresa;
 	
-	
-	
-	public Privado(String nombre, String ciudad, String pais, String empresa, int numEmpresa) {
+
+
+
+	public Privado(String nombre, String ciudad, String pais) {
 		super(nombre, ciudad, pais);
-		this.empresa = empresa;
-		this.numEmpresa = numEmpresa;
+	}
+	
+	
+	
+	
+	public Privado(String nombre, String ciudad, String pais, Compañia[] c,String e[]) {
+		super(nombre, ciudad, pais, c);
+		this.listaEmpresas = e;
+		this.numEmpresa = e.length;
 	}
 
 
 
-	public String getEmpresa() {
-		return empresa;
+
+	public void insertarEmpresas(String e[]) {
+		this.listaEmpresas = e;
+		this.numEmpresa = e.length;
+	}
+	
+	public void insetarEmpresa(String e) {
+		listaEmpresas[numEmpresa] = e;
+		numEmpresa++;
 	}
 
 
 
-	public void setEmpresa(String empresa) {
-		this.empresa = empresa;
+
+	public String[] getListaEmpresas() {
+		return listaEmpresas;
 	}
+
+
+
+
+	public void setListaEmpresas(String[] listaEmpresas) {
+		this.listaEmpresas = listaEmpresas;
+	}
+
 
 
 
@@ -33,15 +57,13 @@ public class Privado extends Aeropuerto{
 
 
 
+
 	public void setNumEmpresa(int numEmpresa) {
 		this.numEmpresa = numEmpresa;
 	}
 	
 	
 	
-	
-	
-	
-	
+
 
 }
