@@ -4,7 +4,7 @@ public class Aeropuerto {
 	private String nombre;
 	private String ciudad;
 	private String pais;
-	private Compañia listaCompañia[]= new Compañia[10];
+	private Compañia listaCompañias[]= new Compañia[10];
 	private int numCompañia;
 	
 	
@@ -19,23 +19,24 @@ public class Aeropuerto {
 	
 	
 	
-	public Aeropuerto(String nombre, String ciudad, String pais, Compañia[] listaCompañia) {
+	public Aeropuerto(String nombre, String ciudad, String pais, Compañia c[]) {
 		this.nombre = nombre;
 		this.ciudad = ciudad;
 		this.pais = pais;
-		this.listaCompañia = listaCompañia;
-		this.numCompañia = listaCompañia.length;
+		listaCompañias = c;
+		this.numCompañia = c.length;
 	}
 	
 	public void insertarCompañia (Compañia compañia) {
-		listaCompañia[numCompañia] = compañia;
+		listaCompañias[numCompañia] = compañia;
 		numCompañia++;
 	}
+	
+	
 
 
-
-
-
+	
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -84,16 +85,16 @@ public class Aeropuerto {
 
 
 
-	public Compañia[] getListaCompañia() {
-		return listaCompañia;
+	public Compañia[] getListaCompañias() {
+		return listaCompañias;
 	}
 
 
 
 
 
-	public void setListaCompañia(Compañia[] listaCompañia) {
-		this.listaCompañia = listaCompañia;
+	public void setListaCompañias(Compañia[] listaCompañias) {
+		this.listaCompañias = listaCompañias;
 	}
 
 
@@ -111,10 +112,11 @@ public class Aeropuerto {
 	public void setNumCompañia(int numCompañia) {
 		this.numCompañia = numCompañia;
 	}
-	
-	
+
+
+
 	public Compañia getCompañia(int i) {
-		return listaCompañia[i];
+		return listaCompañias[i];
 	}
 	
 	public Compañia getCompañia(String nombre) {
@@ -122,10 +124,10 @@ public class Aeropuerto {
 		int i = 0;
 		Compañia c = null;
 		
-		while ((!encontrado) && (i<listaCompañia.length)) {
-			if(nombre.equals(listaCompañia[i].getNombre())) {
+		while ((!encontrado) && (i<listaCompañias.length)) {
+			if(nombre.equals(listaCompañias[i].getNombre())) {
 				encontrado = true;
-				c = listaCompañia[i];
+				c = listaCompañias[i];
 			}
 			i++;
 		}
